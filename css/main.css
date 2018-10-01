@@ -96,150 +96,24 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-body{
-  word-wrap: break-word;
-}
-/**********/
-/* HEADER */
-/**********/
-.sizeimage{
-  width: 150px;
-}
-
-a{
-  color: black;
-  font-weight: bold;
-}
-a:hover{
-  color: #1d9cd7;
-  text-decoration: none;
-}
-
-header{
-  background-color: #f9f9fa;
-}
-
-/*********/
-/* INDEX */
-/*********/
-
-.admin{
-  border: 1px solid black;
-}
-
-.borderindex{
-  border: 1px solid black;
-}
-
-.seemore{
-  height: 50px;
-  border: none;
-  border-left: 1px solid black;
-}
-
-
-@media screen and (max-width: 767px) {
-  .seemore{
-    height: 50px;
-    border: none;
-    border-top: 1px solid black;
-    width: 100%;
-    text-align: center;
-  }
-}
-
-.nocolor{
-  color: black;
-}
-.nocolor:hover{
-  color:black;
-}
-
-.backgroundgreycircle{
-  background: white;
-}
-
-.backgroundgreycircle:hover{
-  background: #e9ecef;
-}
-
-.backgroundgrey{
-  display:inline-block;
-  position:relative;
-  background:white;
-  color:black;
-  z-index:0;
-}
-.backgroundgrey:before {
-  content: "";
-  position: absolute;
-  z-index:-1;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #e9ecef;
-  transform: scaleX(0);
-  transform-origin: 0 50%;
-  transition: 0.3s ease-out;
-}
-.backgroundgrey:hover:before{
-  transform: scaleX(0.999);
-}
-
-
-.bgcircle{
-  height: 80px;
-  width: 80px;
-  border: 1px solid black;
-  border-radius: 80px;
-}
-
-.textaddproject{
-  font-size: 36px;
-  padding-top: 12px;
-}
-
-.colorred {
-  color: red;
-}
-
-.colorgreen {
-  color: green;
-}
-
-.remove{
-  font-size: 20px;
-  background: inherit;
-  border: none;
-}
-.remove:hover{
-  cursor: pointer;
-}
-
-/****************/
-/* PROJECT VIEW */
-/****************/
-
-.titleprojectview{
-  border: 1px solid black;
-}
-
-.checkedprojectview{
-  border-bottom: 1px solid black;
-  border-left: 1px solid black;
-  border-right: 1px solid black;
-}
-
-li{
-  list-style-type: none;
-  font-size: 20px;
-}
-
-.borderbottom{
-  border-bottom: 1px solid black;
-}
-
+   .login {
+       margin-bottom:5px;
+   }
+   .dropdown-menu {
+       width: 300px !important;
+   }
+   .colorblue{
+     background-color: #101e40;
+   }
+   .colorwhite{
+     color: white;
+   }
+   a:hover{
+     text-decoration: none;
+   }
+   .alignright{
+     right: 2px;
+   }
 /* ==========================================================================
    Helper classes
    ========================================================================== */
