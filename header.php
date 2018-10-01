@@ -9,20 +9,11 @@
     ));
     $account = $account->fetch();
     // if user is connected check the user id and check is he's connected 1 = connected 0 = disconnect or no account
-    if ($account['verif_connect'] == 1) {
       echo '<a class="position-absolute alignright" href="disconnect.php">
-          <div class="pt-3 pr-2">
+          <div class="pt-3 pr-1">
           <p class="colorwhite">Se deconnecter</p>
           </div>
         </a>';
-    }
-    if ($account['verif_connect'] == 0) {
-      echo '<a class="position-absolute alignright" href="connect.php">
-          <div class="pt-3 pr-2">
-          <p class="colorwhite">Se connecter</p>
-          </div>
-        </a>';
-    }
   } else {
       echo '<a class="position-absolute alignright" href="connect.php">
           <div class="pt-3 pr-2">
@@ -30,5 +21,6 @@
           </div>
         </a>';
     }
+    // session_destroy();
   ?>
 </nav>

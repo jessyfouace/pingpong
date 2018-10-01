@@ -1,5 +1,5 @@
 <?php session_start();
-// require('config.php') ?>
+require('config.php') ?>
 <!doctype html>
 <html class="no-js" lang="fr">
 
