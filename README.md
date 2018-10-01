@@ -1,5 +1,5 @@
 # Project Name
-TodoList by Jessy
+Ping pong result by Jessy
 
 ## Contributing
 1. Fork it!
@@ -10,7 +10,7 @@ TodoList by Jessy
 
 ## Restriction
 
-We have to create a todolist system with php and mysql, it's for an evalutation for a sertivication in YesWeWeb
+We have to create a site We must create a ping pong championship site for training yes we web, project duration 1 month made mandatory every week, languages ​​allowed: html css js php mysql
 
 ## Creators
 
